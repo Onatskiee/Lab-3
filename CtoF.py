@@ -32,5 +32,4 @@ b.grid(row=3, column=0,columnspan=1, rowspan=2,sticky=W+E+N+S, padx=5, pady=5)
 b = Button(master, text="<<<<", command=c2f, bg='LightSkyBlue3', fg='white', font ='helvetica')
 b.grid(row=3, column=1,columnspan=1, rowspan=2,sticky=W+E+N+S, padx=5, pady=5)
  
-
 master.mainloop()
